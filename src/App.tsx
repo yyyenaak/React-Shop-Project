@@ -11,7 +11,7 @@ function App() {
     <div>
       <Navbar bg="light" variant="light">
         <Container>
-          <Navbar.Brand href="#home">Shoppp</Navbar.Brand>
+          <Navbar.Brand href="#home">ShopTesting</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#cart">Cart</Nav.Link>
