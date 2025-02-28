@@ -20,8 +20,16 @@ function App() {
 
       <Container>
         <Row>
-          <Col>
+          {/* <Col>
             <img src={process.env.PUBLIC_URL + "/logo192.png"} width="80%" />
+            <h4>상품명</h4>
+            <p>상품설명</p>
+          </Col> */}
+          <Col>
+            <img
+              src="https://codingapple1.github.io/shop/shoes1.jpg"
+              width="80%"
+            />
             <h4>상품명</h4>
             <p>상품설명</p>
           </Col>
