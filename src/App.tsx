@@ -28,8 +28,23 @@ function App() {
             <h4>상품명</h4>
             <p>상품설명</p>
           </Col> */}
-          <Card shoes={shoes} />
-         
+          <Col>
+            <img
+              src="https://codingapple1.github.io/shop/shoes1.jpg"
+              width="80%"
+            />
+            <h4>{shoes[0].title}</h4>
+            <p>{shoes[0].price}</p>
+          </Col>
+          <Col>
+            <img
+              src="https://codingapple1.github.io/shop/shoes2.jpg"
+              width="80%"
+            />
+            <h4>{shoes[1].title}</h4>
+            <p>{shoes[1].price}</p>
+          </Col>
+
           <Col>
             <img
               src="https://codingapple1.github.io/shop/shoes3.jpg"
@@ -43,25 +58,5 @@ function App() {
     </div>
   );
 }
-
-
-interface Shoes {
-  id: number;
-  title: string;
-  content: string;
-  price: number;
-}
-
-function Card(props){
-  return(<Col>
-            <img
-              src="https://codingapple1.github.io/shop/shoes1.jpg"
-              width="80%"
-            />
-            <h4>{props.shoes[0].title}</h4>
-            <p>{props.shoes[0].price}</p>
-          </Col>);
-};
-
 
 export default App;
